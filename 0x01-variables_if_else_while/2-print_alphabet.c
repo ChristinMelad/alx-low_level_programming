@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
-* main - entry point.
+*main - entry point.
 *
-* Description: print all the alphabet letters
+*Description: print all the alphabet letters
 *
-* Return: Always 0 (Success)
+*Return: Always 0 (Success)
 */
 
 int main(void)
 
 {
-		char ch = 'a'
+	char ch = 'a';
 
-		while (ch <= 'z')
+	while (ch <= 'z');
 		{
 		putchar(ch);
 		ch++;
