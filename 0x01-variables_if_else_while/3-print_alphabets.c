@@ -2,16 +2,16 @@
 
 /**
 *main - entry point.
-*Description: print all the alphabet letters in lowercase then in upper case
-*Return: 0 (Success)
+*Description: print alphabet letters in lowercase then in uppercase
+*Return: Always 0 (Success)
 */
 
 int main(void)
 {
 char ch = 'a';
-char ch = 'A';
+char CH = 'A';
 
-/*prints a-z*/
+/*print a-z*/
 while (ch <= 'z')
 {
 	putchar(ch);
