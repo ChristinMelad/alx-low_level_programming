@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
-*main -entry point.
-*print_alphabet_x10 -function will print the alphabet 10 times
-*
+*print_alphabet - make the alphabet
+*Return: void
 */
 
-void print_alphabet_x10(void);
-
+void print_alphabet(void)
 {
-	int line, ch;
 
-for (line = 0; line <= 9; line++)
-{
-for (ch = 'a'; ch <= 'z'; ch++)
-_putchar(ch);
-_putchar('\n');
-}
+	char c;
+
+	for (c = 'a'; c <= 'z'; ++c)
+	{
+	_putchar(c);
+	}
+	_putchar('\n');
 }
