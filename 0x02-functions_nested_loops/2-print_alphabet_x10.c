@@ -6,14 +6,14 @@
 *print_alphabet_x10 - function will print the alphabet 10 times
 *
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-int line, c;
+	int line, ch;
 
 for (line = 0; line <= 9; line++)
 {
-for (c = 'a'; c <= 'z'; c++)
-_putchar(c);
+for (ch = 'a'; ch <= 'z'; ch++)
+_putchar(ch);
 _putchar('\n');
 }
 }
