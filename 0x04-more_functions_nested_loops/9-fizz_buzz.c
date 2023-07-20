@@ -1,12 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-*main - print numbers 1 - 100 followed by a new line
-*   numbers thar are multiples of 3 print Fizz
-*   numbers thar are multiples of 5 print Buzz
-*   numbers thar are multiples of 3 and 5 print FizzBuzz
-*   each number and word to be seperated by space
-*Return: Always 0 (sucess)
+*main - prints a Fizz Buzz program
+*Return: Always 0 (success)
 */
 
 int main(void)
@@ -15,18 +12,27 @@ int main(void)
 
 	for (num = 1; num <= 100; num++)
 	{
-		if (num % 3 == 0 && !(num % 5 == 0))
-		printf("Fizz");
-		else if (num % 5 == 0 && !(num % 3 == 0))
-		printf("Buzz");
-		else if (num % 3 == 0 && !(num % 5 == 0))
-		printf("FizzBuzz");
-		else
-		printf("%d", num);
-		if (num != 100)
-		printf(" ");
-		else
-		printf("\n");
+	if (num % 3 == 0 && (num % 5 == 0))
+	{
+	printf("FizzBuzz");
 	}
+	else if (num % 3 == 0)
+	{
+	printf("Fizz");
+	}
+	else if (num % 5 == 0)
+	{
+	printf("Buzz");
+	}
+	else
+	{
+	printf("%d", num);
+	}
+	if (num != 100)
+	{
+	printf(" ");
+	}
+	}
+	printf("\n");
 	return (0);
 	}
