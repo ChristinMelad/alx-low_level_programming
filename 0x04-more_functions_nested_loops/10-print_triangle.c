@@ -7,10 +7,13 @@
 */
 
 void print_triangle(int size)
+
 {
+	
 int hght, base;
 
 if (size <= 0)
+
 _putchar('\n');
 else
 {
@@ -25,5 +28,7 @@ _putchar('#');
 }
 _putchar('\n');
 }
+
 }
+
 }
