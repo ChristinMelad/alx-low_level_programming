@@ -2,6 +2,7 @@
 
 /**
 *print_square - print asquare using # charcter
+*_putchar - prints '#'
 *
 *@size:is the size of the square
 *
