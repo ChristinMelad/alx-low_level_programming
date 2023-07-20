@@ -2,6 +2,7 @@
 
 /**
 *print_line - prints a straight line
+*
 *@n:is the number of times the _ should be printed
 */
 
@@ -13,7 +14,7 @@ _putchar('\n');
 else
 {
 for (lnchr = 1; lnchr <= n; lnchr++)
-_putchar('95');
+_putchar('_');
 _putchar('\n');
 }
 }
