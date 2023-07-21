@@ -21,9 +21,9 @@ for (x = 0; x < n; x++)
 {
 for (y = 1; y < x; y++)
 {
-_putchar(32);
+_putchar(' ');
 }
-_putchar(92);
+_putchar('\\');
 _putchar('\n');
 }
 }
