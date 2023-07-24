@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h'
 
 /**
 *rev_string - Reverses a string
@@ -13,7 +13,7 @@ int l, i;
 char temp;
 
 /*find string lenght without null char*/
-for (l = 0, s[l] != '\0'; ++l;)
+for (l = 0; s[l] != '\0'; ++l)
 ;
 
 
@@ -22,7 +22,7 @@ for (i = 0; i < l / 2; i++)
 {
 
 	temp = s[i];
-	s[i] = s[l - 1 - i]; /*1 because the array starts from 0*/
+	s[i] = s[l - 1 - i];  /*1 because the array starts from 0*/
 	s[l - 1 - i] = temp;
 	}
 }
