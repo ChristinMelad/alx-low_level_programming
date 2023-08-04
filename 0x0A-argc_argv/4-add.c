@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
 *main - Entry point
@@ -8,14 +9,13 @@
 *@argv: arguments
 *Return: 0 if no number is passed to the program, if no digit print Error
 */
-
 int main(int argc, char **argv)
 
 {
 int sum = 0;
 int i;
 
-for (i= 1; i < argc; i++)
+for (i = 1; i < argc; i++)
 {
 int num = atoi(argv[i]);
 if (num <= 0)
