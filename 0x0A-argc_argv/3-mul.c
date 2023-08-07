@@ -3,13 +3,14 @@
 #include <stdlib.h>
 
 /**
-*main - prints result of the multiplication, followed by a new line
-*@argc: number of arguments
-*@argv: arguments
-*Return: 0 success, else error and return 1
+*main - prints result of the multiplication, followed by a new line.
+*@argc: number of arguments.
+*@argv: arguments.
+*Return: 0 success, else error and return 1.
 */
 
 int main(int argc, char *argv[])
+
 {
 	int result;
 
