@@ -32,7 +32,7 @@ for (i = 0; i < height; i++)
 		free(grid);
 		return (NULL);
 	}
-for (j = 0; j < height; j++)
+for (j = 0; j < width; j++)
 grid[i][j] = 0;
 }
 return (grid);
