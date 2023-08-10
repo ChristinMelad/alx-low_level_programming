@@ -4,7 +4,7 @@
 #include <string.h>
 
 
-/***
+/**
 *_realloc - reallocates memory using malloc
 *@ptr: pointer to the memory previously allocated
 *@old_size: int
