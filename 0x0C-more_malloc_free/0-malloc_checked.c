@@ -18,11 +18,10 @@ ptr = malloc(b);
 
 if (ptr == NULL)
 {
-exit(0);
+exit(98);
 }
 else
 {
 return (ptr);
 }
 }
-
