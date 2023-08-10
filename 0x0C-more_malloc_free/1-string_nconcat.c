@@ -43,7 +43,7 @@ if (result == NULL)
 }
 
 memcpy(result, s1, len1);
-memcpy(result + len2, s2, n);
+memcpy(result + len1, s2, n);
 
 result[len1 + n] = '\0';
 
