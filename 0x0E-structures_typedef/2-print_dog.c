@@ -5,7 +5,7 @@
 /**
 *print_dog - prints tha data of the structure dog
 *@d: structure
-*Return: (0)
+*Return: void
 */
 
 void print_dog(struct dog *d)
@@ -13,8 +13,8 @@ void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{
-		printf("Name: %s\n", d->name ? d->name : "(nil)");
+		printf("Name: %s\n", (d->name) ? d->name : "(nil)");
 		printf("Age: %f\n", d->age);
-		printf("owner: %s\n", d->owner ? d->owner : "(nil)");
+		printf("owner: %s\n", (d->owner) ? d->owner : "(nil)");
 	}
 }
