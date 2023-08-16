@@ -5,7 +5,7 @@
 *main - prints its opcodes
 *@argc: arg counter
 *@argv: array of pointers
-*Return: 0 , 1 if argc not right, 2 ig bytes is -ve
+*Return: 0 , 1 if argc not right, 2 if bytes is -ve
 *
 */
 
@@ -13,12 +13,11 @@ int main(int argc, char *argv[])
 
 {
 int bytes, i;
-char *arr;
 
 if (argc != 2)
 {
 printf("Error\n");
-exit(1);
+return (1);
 }
 
 bytes = atoi(argv[1]);
@@ -29,16 +28,19 @@ printf("Error\n");
 exit(2);
 }
 
-arr = (char *)main;
 
 for (i = 0; i < bytes; i++)
 {
-if (i == bytes - 1)
+printf("%02hhx", *((char *)main + i));
+
+if (i < bytes - 1)
 {
-printf("%02hhx\n", arr[i]);
-break;
+printf(" ");
 }
-printf("%02hhx", arr[i]);
+else
+{
+printf("\n");
 }
 return (0);
+}
 }
