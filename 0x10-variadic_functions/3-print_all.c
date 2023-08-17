@@ -22,8 +22,8 @@ while (format && format[i])
 {
 space = "";
 if (format[i + 1])
-space = ",";
-switch (format[1])
+space = ", ";
+switch (format[i])
 {
 case 'c':
 printf("%c%s", va_arg(ap, int), space);
