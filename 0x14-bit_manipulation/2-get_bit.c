@@ -5,6 +5,7 @@
 *get_bit - return the value of the bit
 *@n :number
 *@index: index
+*Return: the value
 */
 
 int get_bit(unsigned long int n, unsigned int index)
